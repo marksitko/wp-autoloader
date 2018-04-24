@@ -27,3 +27,7 @@ ClassLoader::instance()->add(__NAMESPACE__, __DIR__ . '/src');
 Now it is possible to load classes without require or include the files. Just specify the namespace and the ClassName you want to import.
 
 Please take care to define your namespaces like your folder, filename and ClassName structure in your `/src` directory.
+
+## Credits
+
+The ClassLoader was created by Abdelkarim Chatei. Many thanks to Abdelkarim for making the ClassLoader freely available.
